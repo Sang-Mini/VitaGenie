@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40288BA72D1D95D10029A6E5 /* VitaGenieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BA62D1D95D10029A6E5 /* VitaGenieApp.swift */; };
+		40288BA92D1D95D10029A6E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BA82D1D95D10029A6E5 /* ContentView.swift */; };
+		40288BAB2D1D95D20029A6E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40288BAA2D1D95D20029A6E5 /* Assets.xcassets */; };
+		40288BAE2D1D95D20029A6E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40288BAD2D1D95D20029A6E5 /* Preview Assets.xcassets */; };
+		40288BB82D1D95D20029A6E5 /* VitaGenieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BB72D1D95D20029A6E5 /* VitaGenieTests.swift */; };
+		40288BC22D1D95D20029A6E5 /* VitaGenieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BC12D1D95D20029A6E5 /* VitaGenieUITests.swift */; };
+		40288BC42D1D95D20029A6E5 /* VitaGenieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BC32D1D95D20029A6E5 /* VitaGenieUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40288BB42D1D95D20029A6E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40288B9B2D1D95D10029A6E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40288BA22D1D95D10029A6E5;
+			remoteInfo = VitaGenie;
+		};
+		40288BBE2D1D95D20029A6E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40288B9B2D1D95D10029A6E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40288BA22D1D95D10029A6E5;
+			remoteInfo = VitaGenie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40288BA32D1D95D10029A6E5 /* VitaGenie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VitaGenie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40288BA62D1D95D10029A6E5 /* VitaGenieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaGenieApp.swift; sourceTree = "<group>"; };
+		40288BA82D1D95D10029A6E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40288BAA2D1D95D20029A6E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40288BAD2D1D95D20029A6E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40288BB32D1D95D20029A6E5 /* VitaGenieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitaGenieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40288BB72D1D95D20029A6E5 /* VitaGenieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaGenieTests.swift; sourceTree = "<group>"; };
+		40288BBD2D1D95D20029A6E5 /* VitaGenieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitaGenieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40288BC12D1D95D20029A6E5 /* VitaGenieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaGenieUITests.swift; sourceTree = "<group>"; };
+		40288BC32D1D95D20029A6E5 /* VitaGenieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaGenieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40288BA02D1D95D10029A6E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40288BB02D1D95D20029A6E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40288BBA2D1D95D20029A6E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40288B9A2D1D95D10029A6E5 = {
+			isa = PBXGroup;
+			children = (
+				40288BA52D1D95D10029A6E5 /* VitaGenie */,
+				40288BB62D1D95D20029A6E5 /* VitaGenieTests */,
+				40288BC02D1D95D20029A6E5 /* VitaGenieUITests */,
+				40288BA42D1D95D10029A6E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40288BA42D1D95D10029A6E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40288BA32D1D95D10029A6E5 /* VitaGenie.app */,
+				40288BB32D1D95D20029A6E5 /* VitaGenieTests.xctest */,
+				40288BBD2D1D95D20029A6E5 /* VitaGenieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40288BA52D1D95D10029A6E5 /* VitaGenie */ = {
+			isa = PBXGroup;
+			children = (
+				40288BA62D1D95D10029A6E5 /* VitaGenieApp.swift */,
+				40288BA82D1D95D10029A6E5 /* ContentView.swift */,
+				40288BAA2D1D95D20029A6E5 /* Assets.xcassets */,
+				40288BAC2D1D95D20029A6E5 /* Preview Content */,
+			);
+			path = VitaGenie;
+			sourceTree = "<group>";
+		};
+		40288BAC2D1D95D20029A6E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40288BAD2D1D95D20029A6E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40288BB62D1D95D20029A6E5 /* VitaGenieTests */ = {
+			isa = PBXGroup;
+			children = (
+				40288BB72D1D95D20029A6E5 /* VitaGenieTests.swift */,
+			);
+			path = VitaGenieTests;
+			sourceTree = "<group>";
+		};
+		40288BC02D1D95D20029A6E5 /* VitaGenieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40288BC12D1D95D20029A6E5 /* VitaGenieUITests.swift */,
+				40288BC32D1D95D20029A6E5 /* VitaGenieUITestsLaunchTests.swift */,
+			);
+			path = VitaGenieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40288BA22D1D95D10029A6E5 /* VitaGenie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40288BC72D1D95D20029A6E5 /* Build configuration list for PBXNativeTarget "VitaGenie" */;
+			buildPhases = (
+				40288B9F2D1D95D10029A6E5 /* Sources */,
+				40288BA02D1D95D10029A6E5 /* Frameworks */,
+				40288BA12D1D95D10029A6E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VitaGenie;
+			productName = VitaGenie;
+			productReference = 40288BA32D1D95D10029A6E5 /* VitaGenie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40288BB22D1D95D20029A6E5 /* VitaGenieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40288BCA2D1D95D20029A6E5 /* Build configuration list for PBXNativeTarget "VitaGenieTests" */;
+			buildPhases = (
+				40288BAF2D1D95D20029A6E5 /* Sources */,
+				40288BB02D1D95D20029A6E5 /* Frameworks */,
+				40288BB12D1D95D20029A6E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40288BB52D1D95D20029A6E5 /* PBXTargetDependency */,
+			);
+			name = VitaGenieTests;
+			productName = VitaGenieTests;
+			productReference = 40288BB32D1D95D20029A6E5 /* VitaGenieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40288BBC2D1D95D20029A6E5 /* VitaGenieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40288BCD2D1D95D20029A6E5 /* Build configuration list for PBXNativeTarget "VitaGenieUITests" */;
+			buildPhases = (
+				40288BB92D1D95D20029A6E5 /* Sources */,
+				40288BBA2D1D95D20029A6E5 /* Frameworks */,
+				40288BBB2D1D95D20029A6E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40288BBF2D1D95D20029A6E5 /* PBXTargetDependency */,
+			);
+			name = VitaGenieUITests;
+			productName = VitaGenieUITests;
+			productReference = 40288BBD2D1D95D20029A6E5 /* VitaGenieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40288B9B2D1D95D10029A6E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					40288BA22D1D95D10029A6E5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					40288BB22D1D95D20029A6E5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 40288BA22D1D95D10029A6E5;
+					};
+					40288BBC2D1D95D20029A6E5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 40288BA22D1D95D10029A6E5;
+					};
+				};
+			};
+			buildConfigurationList = 40288B9E2D1D95D10029A6E5 /* Build configuration list for PBXProject "VitaGenie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40288B9A2D1D95D10029A6E5;
+			productRefGroup = 40288BA42D1D95D10029A6E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40288BA22D1D95D10029A6E5 /* VitaGenie */,
+				40288BB22D1D95D20029A6E5 /* VitaGenieTests */,
+				40288BBC2D1D95D20029A6E5 /* VitaGenieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40288BA12D1D95D10029A6E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40288BAE2D1D95D20029A6E5 /* Preview Assets.xcassets in Resources */,
+				40288BAB2D1D95D20029A6E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40288BB12D1D95D20029A6E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40288BBB2D1D95D20029A6E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40288B9F2D1D95D10029A6E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40288BA92D1D95D10029A6E5 /* ContentView.swift in Sources */,
+				40288BA72D1D95D10029A6E5 /* VitaGenieApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40288BAF2D1D95D20029A6E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40288BB82D1D95D20029A6E5 /* VitaGenieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40288BB92D1D95D20029A6E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40288BC22D1D95D20029A6E5 /* VitaGenieUITests.swift in Sources */,
+				40288BC42D1D95D20029A6E5 /* VitaGenieUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40288BB52D1D95D20029A6E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40288BA22D1D95D10029A6E5 /* VitaGenie */;
+			targetProxy = 40288BB42D1D95D20029A6E5 /* PBXContainerItemProxy */;
+		};
+		40288BBF2D1D95D20029A6E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40288BA22D1D95D10029A6E5 /* VitaGenie */;
+			targetProxy = 40288BBE2D1D95D20029A6E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40288BC52D1D95D20029A6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40288BC62D1D95D20029A6E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40288BC82D1D95D20029A6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VitaGenie/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dean.VitaGenie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40288BC92D1D95D20029A6E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VitaGenie/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dean.VitaGenie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40288BCB2D1D95D20029A6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dean.VitaGenieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitaGenie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VitaGenie";
+			};
+			name = Debug;
+		};
+		40288BCC2D1D95D20029A6E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dean.VitaGenieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VitaGenie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VitaGenie";
+			};
+			name = Release;
+		};
+		40288BCE2D1D95D20029A6E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dean.VitaGenieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VitaGenie;
+			};
+			name = Debug;
+		};
+		40288BCF2D1D95D20029A6E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dean.VitaGenieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VitaGenie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40288B9E2D1D95D10029A6E5 /* Build configuration list for PBXProject "VitaGenie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40288BC52D1D95D20029A6E5 /* Debug */,
+				40288BC62D1D95D20029A6E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40288BC72D1D95D20029A6E5 /* Build configuration list for PBXNativeTarget "VitaGenie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40288BC82D1D95D20029A6E5 /* Debug */,
+				40288BC92D1D95D20029A6E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40288BCA2D1D95D20029A6E5 /* Build configuration list for PBXNativeTarget "VitaGenieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40288BCB2D1D95D20029A6E5 /* Debug */,
+				40288BCC2D1D95D20029A6E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40288BCD2D1D95D20029A6E5 /* Build configuration list for PBXNativeTarget "VitaGenieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40288BCE2D1D95D20029A6E5 /* Debug */,
+				40288BCF2D1D95D20029A6E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40288B9B2D1D95D10029A6E5 /* Project object */;
+}
