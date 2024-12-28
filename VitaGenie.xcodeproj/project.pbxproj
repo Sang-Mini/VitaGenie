@@ -94,6 +94,11 @@
 		40288BA52D1D95D10029A6E5 /* VitaGenie */ = {
 			isa = PBXGroup;
 			children = (
+				40288BD02D1FC7C70029A6E5 /* Models */,
+				40288BD12D1FC8A40029A6E5 /* ViewModels */,
+				40288BD22D1FC8B10029A6E5 /* Views */,
+				40288BD32D1FC8BA0029A6E5 /* Resources */,
+				40288BD42D1FC8CE0029A6E5 /* Utilities */,
 				40288BA62D1D95D10029A6E5 /* VitaGenieApp.swift */,
 				40288BA82D1D95D10029A6E5 /* ContentView.swift */,
 				40288BAA2D1D95D20029A6E5 /* Assets.xcassets */,
@@ -125,6 +130,41 @@
 				40288BC32D1D95D20029A6E5 /* VitaGenieUITestsLaunchTests.swift */,
 			);
 			path = VitaGenieUITests;
+			sourceTree = "<group>";
+		};
+		40288BD02D1FC7C70029A6E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		40288BD12D1FC8A40029A6E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		40288BD22D1FC8B10029A6E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40288BD32D1FC8BA0029A6E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		40288BD42D1FC8CE0029A6E5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
