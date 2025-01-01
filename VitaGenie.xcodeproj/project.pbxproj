@@ -14,6 +14,14 @@
 		40288BB82D1D95D20029A6E5 /* VitaGenieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BB72D1D95D20029A6E5 /* VitaGenieTests.swift */; };
 		40288BC22D1D95D20029A6E5 /* VitaGenieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BC12D1D95D20029A6E5 /* VitaGenieUITests.swift */; };
 		40288BC42D1D95D20029A6E5 /* VitaGenieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BC32D1D95D20029A6E5 /* VitaGenieUITestsLaunchTests.swift */; };
+		40288BD62D24F8410029A6E5 /* SurveyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BD52D24F8410029A6E5 /* SurveyQuestion.swift */; };
+		40288BD82D24F8880029A6E5 /* Recommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BD72D24F8880029A6E5 /* Recommendation.swift */; };
+		40288BDA2D24F8AF0029A6E5 /* SurveyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BD92D24F8AF0029A6E5 /* SurveyViewModel.swift */; };
+		40288BDC2D24F8CB0029A6E5 /* RecommendationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BDB2D24F8CB0029A6E5 /* RecommendationViewModel.swift */; };
+		40288BE02D24F8FA0029A6E5 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BDF2D24F8FA0029A6E5 /* SurveyView.swift */; };
+		40288BE22D24F90A0029A6E5 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BE12D24F90A0029A6E5 /* ResultView.swift */; };
+		40288BE42D24F9450029A6E5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40288BE32D24F9450029A6E5 /* Localizable.strings */; };
+		40288BE62D24FA360029A6E5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BE52D24FA360029A6E5 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		40288BBD2D1D95D20029A6E5 /* VitaGenieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitaGenieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40288BC12D1D95D20029A6E5 /* VitaGenieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaGenieUITests.swift; sourceTree = "<group>"; };
 		40288BC32D1D95D20029A6E5 /* VitaGenieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaGenieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40288BD52D24F8410029A6E5 /* SurveyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestion.swift; sourceTree = "<group>"; };
+		40288BD72D24F8880029A6E5 /* Recommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recommendation.swift; sourceTree = "<group>"; };
+		40288BD92D24F8AF0029A6E5 /* SurveyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewModel.swift; sourceTree = "<group>"; };
+		40288BDB2D24F8CB0029A6E5 /* RecommendationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationViewModel.swift; sourceTree = "<group>"; };
+		40288BDF2D24F8FA0029A6E5 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
+		40288BE12D24F90A0029A6E5 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		40288BE32D24F9450029A6E5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		40288BE52D24FA360029A6E5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,14 +110,12 @@
 		40288BA52D1D95D10029A6E5 /* VitaGenie */ = {
 			isa = PBXGroup;
 			children = (
+				40288BA62D1D95D10029A6E5 /* VitaGenieApp.swift */,
 				40288BD02D1FC7C70029A6E5 /* Models */,
 				40288BD12D1FC8A40029A6E5 /* ViewModels */,
 				40288BD22D1FC8B10029A6E5 /* Views */,
 				40288BD32D1FC8BA0029A6E5 /* Resources */,
 				40288BD42D1FC8CE0029A6E5 /* Utilities */,
-				40288BA62D1D95D10029A6E5 /* VitaGenieApp.swift */,
-				40288BA82D1D95D10029A6E5 /* ContentView.swift */,
-				40288BAA2D1D95D20029A6E5 /* Assets.xcassets */,
 				40288BAC2D1D95D20029A6E5 /* Preview Content */,
 			);
 			path = VitaGenie;
@@ -135,6 +149,8 @@
 		40288BD02D1FC7C70029A6E5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				40288BD52D24F8410029A6E5 /* SurveyQuestion.swift */,
+				40288BD72D24F8880029A6E5 /* Recommendation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -142,6 +158,8 @@
 		40288BD12D1FC8A40029A6E5 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				40288BD92D24F8AF0029A6E5 /* SurveyViewModel.swift */,
+				40288BDB2D24F8CB0029A6E5 /* RecommendationViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -149,6 +167,9 @@
 		40288BD22D1FC8B10029A6E5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				40288BA82D1D95D10029A6E5 /* ContentView.swift */,
+				40288BDF2D24F8FA0029A6E5 /* SurveyView.swift */,
+				40288BE12D24F90A0029A6E5 /* ResultView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +177,8 @@
 		40288BD32D1FC8BA0029A6E5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				40288BE32D24F9450029A6E5 /* Localizable.strings */,
+				40288BAA2D1D95D20029A6E5 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -163,6 +186,7 @@
 		40288BD42D1FC8CE0029A6E5 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				40288BE52D24FA360029A6E5 /* NetworkManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -272,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40288BAE2D1D95D20029A6E5 /* Preview Assets.xcassets in Resources */,
+				40288BE42D24F9450029A6E5 /* Localizable.strings in Resources */,
 				40288BAB2D1D95D20029A6E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +322,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40288BD82D24F8880029A6E5 /* Recommendation.swift in Sources */,
+				40288BDC2D24F8CB0029A6E5 /* RecommendationViewModel.swift in Sources */,
+				40288BE62D24FA360029A6E5 /* NetworkManager.swift in Sources */,
+				40288BE22D24F90A0029A6E5 /* ResultView.swift in Sources */,
+				40288BDA2D24F8AF0029A6E5 /* SurveyViewModel.swift in Sources */,
+				40288BE02D24F8FA0029A6E5 /* SurveyView.swift in Sources */,
 				40288BA92D1D95D10029A6E5 /* ContentView.swift in Sources */,
+				40288BD62D24F8410029A6E5 /* SurveyQuestion.swift in Sources */,
 				40288BA72D1D95D10029A6E5 /* VitaGenieApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
