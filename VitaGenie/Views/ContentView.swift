@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Welcom to VitaGenie!")
+        NavigationLink(destination: SurveyView()) {
+            Text("설문 시작하기")
                 .font(.title)
-            Button("Start Survey") {
-                print("Survey Started")
-            }
+                .padding()
+                .background(Color.blue)
+                .foregroundColor(.white)
+                .cornerRadius(10)
         }
+        .navigationTitle("VitaGenie")
     }
 }
 
