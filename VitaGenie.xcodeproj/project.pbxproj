@@ -22,6 +22,7 @@
 		40288BE22D24F90A0029A6E5 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BE12D24F90A0029A6E5 /* ResultView.swift */; };
 		40288BE42D24F9450029A6E5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40288BE32D24F9450029A6E5 /* Localizable.strings */; };
 		40288BE62D24FA360029A6E5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BE52D24FA360029A6E5 /* NetworkManager.swift */; };
+		40288BE82D24FF020029A6E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BE72D24FF020029A6E5 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		40288BE12D24F90A0029A6E5 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		40288BE32D24F9450029A6E5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		40288BE52D24FA360029A6E5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		40288BE72D24FF020029A6E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				40288BE52D24FA360029A6E5 /* NetworkManager.swift */,
+				40288BE72D24FF020029A6E5 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				40288BE62D24FA360029A6E5 /* NetworkManager.swift in Sources */,
 				40288BE22D24F90A0029A6E5 /* ResultView.swift in Sources */,
 				40288BDA2D24F8AF0029A6E5 /* SurveyViewModel.swift in Sources */,
+				40288BE82D24FF020029A6E5 /* Constants.swift in Sources */,
 				40288BE02D24F8FA0029A6E5 /* SurveyView.swift in Sources */,
 				40288BA92D1D95D10029A6E5 /* ContentView.swift in Sources */,
 				40288BD62D24F8410029A6E5 /* SurveyQuestion.swift in Sources */,
