@@ -23,6 +23,7 @@
 		40288BE42D24F9450029A6E5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40288BE32D24F9450029A6E5 /* Localizable.strings */; };
 		40288BE62D24FA360029A6E5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BE52D24FA360029A6E5 /* NetworkManager.swift */; };
 		40288BE82D24FF020029A6E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BE72D24FF020029A6E5 /* Constants.swift */; };
+		40288BEA2D2552C60029A6E5 /* NameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BE92D2552C60029A6E5 /* NameInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		40288BE32D24F9450029A6E5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		40288BE52D24FA360029A6E5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		40288BE72D24FF020029A6E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		40288BE92D2552C60029A6E5 /* NameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 				40288BA82D1D95D10029A6E5 /* ContentView.swift */,
 				40288BDF2D24F8FA0029A6E5 /* SurveyView.swift */,
 				40288BE12D24F90A0029A6E5 /* ResultView.swift */,
+				40288BE92D2552C60029A6E5 /* NameInputView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40288BEA2D2552C60029A6E5 /* NameInputView.swift in Sources */,
 				40288BD82D24F8880029A6E5 /* Recommendation.swift in Sources */,
 				40288BDC2D24F8CB0029A6E5 /* RecommendationViewModel.swift in Sources */,
 				40288BE62D24FA360029A6E5 /* NetworkManager.swift in Sources */,
