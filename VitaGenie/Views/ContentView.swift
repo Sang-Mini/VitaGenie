@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationLink(destination: SurveyView()) {
+        NavigationLink(destination: NameInputView()) {
             Text("설문 시작하기")
                 .font(.title)
                 .padding()
