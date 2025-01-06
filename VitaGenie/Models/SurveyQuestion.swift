@@ -14,3 +14,4 @@ struct SurveyQuestion: Identifiable {
     let options: [String] // 답변 선택지
     var selectedAnswer: String? // 사용자가 선택한 답변 (옵셔널)
 }
+

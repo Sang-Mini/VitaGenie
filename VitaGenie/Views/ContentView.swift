@@ -9,15 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationLink(destination: NameInputView()) {
-            Text("설문 시작하기")
-                .font(.title)
-                .padding()
-                .background(Color.blue)
-                .foregroundColor(.white)
-                .cornerRadius(10)
+        NavigationView {
+            VStack {
+                Spacer()
+                Image(systemName: "person.circle") // Persona 스타일의 로고
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 150)
+                
+                Text("당신만을 위한 맞춤형 영양제 추천")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                
+                NavigationLink(destination: SurveyView()) {
+                    Text("시작하기")
+                        .foregroundColor(.white)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(Color.blue)
+                        .cornerRadius(12)
+                        .padding(.horizontal)
+                }
+                Spacer()
+            }
+            .padding()
         }
-        .navigationTitle("VitaGenie")
     }
 }
 
