@@ -11,7 +11,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
+                HeaderView()
+                
                 Spacer()
+                
                 Image(systemName: "person.circle") // Persona 스타일의 로고
                     .resizable()
                     .scaledToFit()
