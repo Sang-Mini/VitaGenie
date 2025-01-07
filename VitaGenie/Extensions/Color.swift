@@ -14,6 +14,7 @@ extension Color {
     static let vitaMint = Color(hex: "#A3E4D7")
     static let vitaYellow = Color(hex: "#F4D03F")
     static let vitaRed = Color(hex: "#E74C3C")
+    static let vitaPink = Color(hex: "#fd546a")
     static let vitaBackground = Color(hex: "#F9F9F9")
     static let vitaText = Color(hex: "#2C3E50")
     static let vitaSubtitle = Color(hex: "#BDC3C7")

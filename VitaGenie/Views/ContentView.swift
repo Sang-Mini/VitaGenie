@@ -22,6 +22,7 @@ struct ContentView: View {
                 
                 Text("당신만을 위한 맞춤형 영양제 추천")
                     .font(.title)
+                    .foregroundColor(.vitaText)
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)
                     .padding()
@@ -32,7 +33,7 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .padding()
                         .frame(maxWidth: .infinity)
-                        .background(Color(hex: "#fd546a"))
+                        .background(Color.vitaPink)
                         .cornerRadius(30)
                         .padding(.horizontal)
                 }

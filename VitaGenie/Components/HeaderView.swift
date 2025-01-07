@@ -16,17 +16,24 @@ struct HeaderView: View {
                     Image(systemName: "pills.fill")// 기본 로고 (SF Symbol 사용)
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 50, height: 50)
+                        .frame(width: 20, height: 20)
                         .foregroundColor(Color(hex: "#fd546a")) // HEX 컬러 적용
                     Text("VitaGenie")
-                        .font(.title)
+                        .font(.headline)
                         .fontWeight(.bold)
                         .foregroundColor(.primary)
                 }
                 
                 Spacer() // 중앙 정렬을 위해 Spacer 추가
             }
-            .padding()
+            .padding(.top, 8)
+            .padding(.bottom, 8)
+        
+            // 그레이 색상의 구분선 추가
+            Rectangle()
+                    .frame(height: 2)
+                    .foregroundColor(.gray.opacity(0.3))
+                    .shadow(color: .gray, radius: 5, x: 0, y: 3)
         }
 }
 
