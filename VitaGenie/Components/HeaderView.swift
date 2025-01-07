@@ -12,13 +12,13 @@ struct HeaderView: View {
             HStack {
                 Spacer() // 중앙 정렬을 위해 Spacer 추가
                 
-                VStack {
-                    Image(systemName: "leaf.circle.fill") // 기본 로고 (SF Symbol 사용)
+                HStack {
+                    Image(systemName: "pills.fill")// 기본 로고 (SF Symbol 사용)
                         .resizable()
                         .scaledToFit()
                         .frame(width: 50, height: 50)
-                        .foregroundColor(Color(hex: "#3498db")) // HEX 컬러 적용
-                    Text("VitaGini")
+                        .foregroundColor(Color(hex: "#fd546a")) // HEX 컬러 적용
+                    Text("VitaGenie")
                         .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(.primary)

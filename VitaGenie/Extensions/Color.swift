@@ -8,17 +8,27 @@
 import SwiftUI
 
 extension Color {
+    static let vitaGreen = Color(hex: "#34C759")
+    static let vitaBlue = Color(hex: "#3498DB")
+    static let vitaOrange = Color(hex: "#FFA500")
+    static let vitaMint = Color(hex: "#A3E4D7")
+    static let vitaYellow = Color(hex: "#F4D03F")
+    static let vitaRed = Color(hex: "#E74C3C")
+    static let vitaBackground = Color(hex: "#F9F9F9")
+    static let vitaText = Color(hex: "#2C3E50")
+    static let vitaSubtitle = Color(hex: "#BDC3C7")
+    
+    // HEX 코드를 사용하는 이니셜라이저(생성자) 추가
     init(hex: String) {
-            var hexSanitized = hex.trimmingCharacters(in: .whitespacesAndNewlines)
-            hexSanitized = hexSanitized.replacingOccurrences(of: "#", with: "")
+            let scanner = Scanner(string: hex)
+            _ = scanner.scanString("#") // '#' 제거
+            var rgbValue: UInt64 = 0
+            scanner.scanHexInt64(&rgbValue)
 
-            var rgb: UInt64 = 0
-            Scanner(string: hexSanitized).scanHexInt64(&rgb)
+            let red = Double((rgbValue >> 16) & 0xFF) / 255.0
+            let green = Double((rgbValue >> 8) & 0xFF) / 255.0
+            let blue = Double(rgbValue & 0xFF) / 255.0
 
-            let red = Double((rgb >> 16) & 0xFF) / 255.0
-            let green = Double((rgb >> 8) & 0xFF) / 255.0
-            let blue = Double(rgb & 0xFF) / 255.0
-
-            self.init(.sRGB, red: red, green: green, blue: blue, opacity: 1.0)
+            self.init(red: red, green: green, blue: blue)
         }
 }
