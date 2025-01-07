@@ -25,11 +25,12 @@ struct ContentView: View {
                 
                 NavigationLink(destination: SurveyView()) {
                     Text("추천받기")
+                        .fontWeight(.bold)
                         .foregroundColor(.white)
                         .padding()
                         .frame(maxWidth: .infinity)
-                        .background(Color.blue)
-                        .cornerRadius(12)
+                        .background(Color(hex: "#fd546a"))
+                        .cornerRadius(30)
                         .padding(.horizontal)
                 }
                 Spacer()
