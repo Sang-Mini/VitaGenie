@@ -24,6 +24,7 @@
 		40288BE62D24FA360029A6E5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BE52D24FA360029A6E5 /* NetworkManager.swift */; };
 		40288BE82D24FF020029A6E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BE72D24FF020029A6E5 /* Constants.swift */; };
 		40288BEA2D2552C60029A6E5 /* NameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BE92D2552C60029A6E5 /* NameInputView.swift */; };
+		40288BED2D2D588D0029A6E5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BEC2D2D588D0029A6E5 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		40288BE52D24FA360029A6E5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		40288BE72D24FF020029A6E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		40288BE92D2552C60029A6E5 /* NameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameInputView.swift; sourceTree = "<group>"; };
+		40288BEC2D2D588D0029A6E5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		40288BA52D1D95D10029A6E5 /* VitaGenie */ = {
 			isa = PBXGroup;
 			children = (
+				40288BEB2D2D58530029A6E5 /* Extensions */,
 				40288BA62D1D95D10029A6E5 /* VitaGenieApp.swift */,
 				40288BD02D1FC7C70029A6E5 /* Models */,
 				40288BD12D1FC8A40029A6E5 /* ViewModels */,
@@ -195,6 +198,14 @@
 				40288BE72D24FF020029A6E5 /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		40288BEB2D2D58530029A6E5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40288BEC2D2D588D0029A6E5 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,6 +344,7 @@
 				40288BDC2D24F8CB0029A6E5 /* RecommendationViewModel.swift in Sources */,
 				40288BE62D24FA360029A6E5 /* NetworkManager.swift in Sources */,
 				40288BE22D24F90A0029A6E5 /* ResultView.swift in Sources */,
+				40288BED2D2D588D0029A6E5 /* Color.swift in Sources */,
 				40288BDA2D24F8AF0029A6E5 /* SurveyViewModel.swift in Sources */,
 				40288BE82D24FF020029A6E5 /* Constants.swift in Sources */,
 				40288BE02D24F8FA0029A6E5 /* SurveyView.swift in Sources */,

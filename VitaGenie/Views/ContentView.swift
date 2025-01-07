@@ -24,7 +24,7 @@ struct ContentView: View {
                     .padding()
                 
                 NavigationLink(destination: SurveyView()) {
-                    Text("시작하기")
+                    Text("추천받기")
                         .foregroundColor(.white)
                         .padding()
                         .frame(maxWidth: .infinity)
