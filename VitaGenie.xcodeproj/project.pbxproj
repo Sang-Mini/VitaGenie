@@ -25,6 +25,7 @@
 		40288BE82D24FF020029A6E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BE72D24FF020029A6E5 /* Constants.swift */; };
 		40288BEA2D2552C60029A6E5 /* NameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BE92D2552C60029A6E5 /* NameInputView.swift */; };
 		40288BED2D2D588D0029A6E5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BEC2D2D588D0029A6E5 /* Color.swift */; };
+		40288BF02D2D5BD40029A6E5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40288BEF2D2D5BD40029A6E5 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		40288BE72D24FF020029A6E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		40288BE92D2552C60029A6E5 /* NameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameInputView.swift; sourceTree = "<group>"; };
 		40288BEC2D2D588D0029A6E5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		40288BEF2D2D5BD40029A6E5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		40288BA52D1D95D10029A6E5 /* VitaGenie */ = {
 			isa = PBXGroup;
 			children = (
+				40288BEE2D2D5BAC0029A6E5 /* Components */,
 				40288BEB2D2D58530029A6E5 /* Extensions */,
 				40288BA62D1D95D10029A6E5 /* VitaGenieApp.swift */,
 				40288BD02D1FC7C70029A6E5 /* Models */,
@@ -206,6 +209,14 @@
 				40288BEC2D2D588D0029A6E5 /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		40288BEE2D2D5BAC0029A6E5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				40288BEF2D2D5BD40029A6E5 /* HeaderView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +362,7 @@
 				40288BA92D1D95D10029A6E5 /* ContentView.swift in Sources */,
 				40288BD62D24F8410029A6E5 /* SurveyQuestion.swift in Sources */,
 				40288BA72D1D95D10029A6E5 /* VitaGenieApp.swift in Sources */,
+				40288BF02D2D5BD40029A6E5 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
