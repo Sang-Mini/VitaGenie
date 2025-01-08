@@ -27,7 +27,7 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                     .padding()
                 
-                NavigationLink(destination: SurveyView()) {
+                NavigationLink(destination: NameInputView()) {
                     Text("추천받기")
                         .fontWeight(.bold)
                         .foregroundColor(.white)
