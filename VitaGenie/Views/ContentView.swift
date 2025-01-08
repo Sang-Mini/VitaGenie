@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
             VStack {
                 HeaderView()
                 
@@ -40,7 +39,6 @@ struct ContentView: View {
                 Spacer()
             }
             .padding()
-        }
     }
 }
 
