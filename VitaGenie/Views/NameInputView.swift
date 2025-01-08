@@ -12,14 +12,26 @@ struct NameInputView: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("당신의 이름은 무엇입니까?")
-                .font(.title)
-                .padding(.top, 50)
+            HeaderView()
+            
+            Text("이름을 입력해 주세요")
+                .font(.title2)
+                .fontWeight(.semibold)
+                .foregroundColor(.vitaText)
+                .padding(.bottom, 20)
+            
             
             TextField("이름", text: $userName)
-                .padding()
-                .background(Color.gray.opacity(0.2))
-                .cornerRadius(8)
+                .multilineTextAlignment(.center)
+                .padding(.bottom, 8)
+                .font(.system(size: 18))
+                .foregroundColor(.vitaText)
+                .overlay(
+                    Rectangle()
+                        .frame(height: 1)
+                        .foregroundColor(.gray.opacity(0.5)), // 그레이 선
+                    alignment: .bottom
+                )
                 .padding(.horizontal, 20)
             
             Spacer()
@@ -28,27 +40,28 @@ struct NameInputView: View {
                 // 이름 입력 후 다음 단계로 진행 (현재는 Print 사용)
                 print("사용자 이름 : \(userName)")
             }) {
-                Text("다음")
-                    .frame(maxWidth: .infinity)
-                    .padding()
-                    .background(userName.isEmpty ? Color.gray : Color.blue)
+                Text("Next")
+                    .font(.headline)
                     .foregroundColor(.white)
-                    .cornerRadius(8)
-                    .padding(.horizontal, 20)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(userName.isEmpty ? Color.vitaPink.opacity(0.3) : Color.vitaPink)
+                    .cornerRadius(30)
+                    .padding(.horizontal, 110)
             }
             .disabled(userName.isEmpty) // 이름이 비어 있으면 버튼 비활성화
             
             Spacer()
+            Spacer()
         }
-        .navigationTitle("이름 입력")
-        .navigationBarTitleDisplayMode(.inline)
+        .padding()
+        .background(Color.vitaBackground.ignoresSafeArea())
+        .navigationBarBackButtonHidden(true)
     }
 }
 
 struct NameInputView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
             NameInputView()
-        }
     }
 }
