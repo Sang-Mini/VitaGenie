@@ -20,7 +20,6 @@ struct NameInputView: View {
                 .foregroundColor(.vitaText)
                 .padding(.bottom, 20)
             
-            
             TextField("이름", text: $userName)
                 .multilineTextAlignment(.center)
                 .padding(.bottom, 8)
@@ -62,6 +61,6 @@ struct NameInputView: View {
 
 struct NameInputView_Previews: PreviewProvider {
     static var previews: some View {
-            NameInputView()
+        NameInputView()
     }
 }
